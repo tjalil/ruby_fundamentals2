@@ -5,4 +5,4 @@ def fahrenheit_to_celsius(fahrenheit_temp)
   return ((fahrenheit_temp - 32) * 5/9)
 end
 
-puts fahrenheit_to_celsius(fahrenheit_temp)
+puts "A temperature of #{fahrenheit_temp}F is equal to #{fahrenheit_to_celsius(fahrenheit_temp)}C"
