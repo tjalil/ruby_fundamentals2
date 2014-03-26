@@ -18,4 +18,18 @@ cohort_stats(students)
 #add cohort 4 with 43 students
 students[:cohort4] = 43
 
-cohort_stats(students)
+#display cohort names, keys method
+puts students.keys
+
+#increase cohort size by 5%
+def new_cohort_stats(students)
+  students.each do |key, value|
+    value = 1.05*value
+    puts "#{key}: #{value.floor} students"
+  end
+end
+
+#display new_cohort_stats
+new_cohort_stats(students)
+
+
