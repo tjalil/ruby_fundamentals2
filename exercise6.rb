@@ -10,13 +10,13 @@ def list_items(grocery_list)
   puts "#{grocery_list.length} items on the list right now"
 end
 
-#calling mthod list_items
+#calling method list_items
 list_items(grocery_list)
 
 #add rice to the list
 grocery_list << "rice"
 
-#calling mthod list_items
+#calling method list_items
 list_items(grocery_list)
 
 #checking grocery_list for bananas
@@ -29,7 +29,3 @@ puts second_item
 #delete salmon from the list and redisplay it
 grocery_list.delete("salmon")
 puts grocery_list
-
-
-
-
