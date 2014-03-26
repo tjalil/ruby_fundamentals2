@@ -26,6 +26,9 @@ grocery_list.include?("bananas") ? (puts "You need to pick up bananas") : (puts 
 second_item = grocery_list[1]
 puts second_item
 
+#delete salmon from the list and redisplay it
+grocery_list.delete("salmon")
+puts grocery_list
 
 
 
