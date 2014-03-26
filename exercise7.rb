@@ -32,4 +32,6 @@ end
 #display new_cohort_stats
 new_cohort_stats(students)
 
-
+#delete 2nd cohort, redisplay
+students.delete(:cohort2)
+new_cohort_stats(students)
