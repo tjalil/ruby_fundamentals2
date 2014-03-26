@@ -3,6 +3,7 @@ grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
 
 #method to list items on the grocery_list and the number of items in the grocery_list
 def list_items(grocery_list)
+  grocery_list.sort!
   grocery_list.each do |item|
     puts "* #{item}"
   end
